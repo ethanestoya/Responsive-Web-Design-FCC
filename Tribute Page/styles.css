@@ -1,0 +1,56 @@
+/* VISUALS */
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: lightgray;
+    text-align: center;
+}
+
+#img-div {
+    background-color: white;
+}
+
+#tribute-info ul,
+#tribute-info p {
+    text-align: left;
+}
+
+/* LAYOUT */
+
+body {
+    display: block;
+}
+
+#img-div {
+    width: 98%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+#img-div figcaption {
+    padding: 1rem 1rem 1.5rem;
+}
+
+#image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+#tribute-info {
+    margin: auto;
+}
+
+#tribute-info h2 {
+    margin: 3rem 0;
+}
+
+#tribute-info li {
+    padding: 0 0 1.5rem;
+    margin: 00% 25%;
+}
+
+#tribute-info p {
+    margin: 00% 25%;
+    padding: 0 0 1.5rem 1rem;
+}
