@@ -44,7 +44,7 @@ body {
 .packages-content p {
     /* border: 3px solid red; */
     margin: auto;
-    width: 700px;
+    max-width: 700px;
     padding-bottom: 40px;
 }
 
