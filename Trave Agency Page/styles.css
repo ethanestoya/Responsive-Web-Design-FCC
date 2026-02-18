@@ -61,17 +61,13 @@ body {
     align-content: center;
 }
 
-/* .main-content h1 {
-    padding-bottom: 1%;
-} */
-
 #top-itineraries {
     /* border: 3px solid red; */
-    padding-top: 25px;
+    padding: 50px 0px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    gap: 15px;
+    gap: 40px;
     /* align-items: flex-start; */
 }
 
@@ -85,14 +81,14 @@ body {
     /* object-fit: fill; */
 }
 
-.itinerary img {
+.itinerary-content img {
     /* border: 3px solid red; */
     border-radius: 25px;
     width: 300px;
     height: 250px;
 }
 
-.itinerary figcaption {
+.itinerary-content figcaption {
     padding: 0px 15px 15px;
 }
 
@@ -129,4 +125,10 @@ body {
     color: black;
     border-radius: 25px; 
     /* overflow: hidden; */
+}
+
+.top-itineraries-title {
+    /* border: 3px solid red; */
+    font-size: 45px;
+    text-align: center;
 }
